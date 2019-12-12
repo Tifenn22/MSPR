@@ -1,12 +1,18 @@
 <?php require_once 'includes/header.php'; ?>
-<?php use Carbon\Carbon; ?>
 
-    <section>
-        <div class="container">
+    <section id="home" class="container mt-5">
 
-            <?php echo Carbon::make(date('Y-m-d 09:25:00'))->diffForHumans(); ?>
-
+        <div class="jumbotron">
+            <h1>bonjour</h1>
         </div>
+        <div class="container">
+            <div class="card card-header">
+                <div class="card-body">
+                    <?php var_dump($_SESSION); ?>
+                </div>
+            </div>
+        </div>
+
     </section>
 
 <?php require_once 'includes/footer.php'; ?>

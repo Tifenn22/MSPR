@@ -21,7 +21,10 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "carbon": "^0.5.0",
     "jquery": "^3.4.1",
-    "popper.js": "^1.16.0"
+    "popper.js": "^1.16.0",
+    "vendor": "^1.7.0",
+    "vendors": "^1.0.3"
   }
 }
